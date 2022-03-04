@@ -30,6 +30,18 @@ namespace AddressBoookSystem
             this.phoneNumber = phoneNumber;
             this.email = email;
         }
+
+        public Contacts(string firstName, string lastName, string address, string city, string state, long zipCode1, long phoneNumber, string email)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.address = address;
+            this.city = city;
+            this.state = state;
+            this.phoneNumber = phoneNumber;
+            this.email = email;
+        }
+
         // Method to Display the contact details
         public void Display()
         {
